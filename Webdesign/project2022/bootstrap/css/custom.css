@@ -1,0 +1,22 @@
+.fakeimg {
+    height: 200px;
+    background: lightgray;
+  }
+
+  .social {
+      font-size: 2em;
+  }
+
+  .footer{
+      font-size: 1.2em;
+  }
+
+  .header{
+      background-color: darkgray;
+
+
+    }
+
+  div.Footer{
+      background-color: darkgray;
+  }

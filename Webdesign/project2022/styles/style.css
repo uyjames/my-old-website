@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre&display=swap');
+
+body {
+    background-color: rgb(94, 31, 94)    ;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(95, 11, 95);
+    height: 100px;
+    padding: 3px;
+    color: white;
+    font-family: Proza Libre;
+}
+header nav {
+    background-color: rgb(88, 3, 88);
+}
+footer {
+    background-color: rgb(80, 38, 80);
+    height: 100px;
+    padding: 3px;
+    color: white;
+}
+main {
+    background-color: rgb(240, 184, 240);
+    padding: 3px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    float: left;
+    /*background-color: #de5b87;*/
+    background: linear-gradient(to bottom, #8b468b 0%,#963f7c 50%,#b674a0 51%,#bc4598 100%);
+}
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    /*background-color: #731515;*/
+    background: linear-gradient(to bottom, #939601f3 0%, #a4a705 50%,#dbdf04dc 51%,#9a9c19 100%);
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px rgb(68, 4, 45);
+    transition: all 1s ease;
+}
+#localnav {
+    background-color: yellow;   
+    font-family: Open Sans;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        order: 1;
+    }
+    main {
+        order: 2;
+    }
+    #localnav {
+        order: 3;
+    }
+    footer {
+        order: 4;
+    }
+}

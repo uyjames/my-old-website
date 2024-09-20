@@ -1,0 +1,26 @@
+From a0da1bf96e60b29132f7a17e022adec471f8cdfc Mon Sep 17 00:00:00 2001
+From: Roger Lua <roger.lua@college.cksc.edu.ph>
+Date: Sun, 6 Mar 2022 18:25:15 +0800
+Subject: [PATCH 1/5] Edit footer
+
+---
+ product.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/product.html b/product.html
+index 2ac36f1..04bb96f 100644
+--- a/product.html
++++ b/product.html
+@@ -27,7 +27,7 @@
+ 
+     </main>
+ 
+-    <footer>This is our footer po!</footer>
++    <footer>This is our footer 2022</footer>
+     </div>
+ </body>
+ </html>
+\ No newline at end of file
+-- 
+2.33.0.windows.2
+
